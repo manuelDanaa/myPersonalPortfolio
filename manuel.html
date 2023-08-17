@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dana's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <img src="images/Your_paragraph_text-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Thinking. Designing. and Finesse.</p>
+            <h1><span> Dana Abegail Basilio Manuel </span></h1>
+            <p1> Currently a 3rd Year InfoTech Student of PHINMA University of Pangasinan</p1>
+        </div>
+        <div id= "works">
+            <div class="container">
+                <h1 class="sub-title">Recent Works</h1>
+                <div class="works-list"> 
+                    <div class="row">
+                        <p>BAGUIO GIRL COFFEE</p>
+                        <p1>s.y. 2022 - 2023</p1>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="row">
+                       <P>JAVA TUTORIAL</P>
+                       <p1>s.y. 2022 - 2023</p1>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="row">
+                        <P>PET MANAGEMENT SYSTEM</P>
+                        <p1>s.y 2023 - </p1>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/dana.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hello! Welcome to my personal portfolio. I'm Dana Abegail B. Manuel, 3rd year student 
+                    taking up Bachelor of Science in Information Technology at PHINMA University of Pangasinan.
+                    As a web developer, I strive to create intuitive and user-friendly experiences for anyone and 
+                    enjoys the process of breaking down problems and finding innovative solutions through coding.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX DESIGN</span><br>Creating visually appealing, user-friendly, and functional digital products, such as websites, mobile apps, and software interfaces.</li>
+                            <li><span>HTML</span><br>Ability to create the structure and content of web pages using HTML.</li>
+                            <li><span>CSS</span><br>Ability to style and visually enhance web pages created with HTML.</li>
+                            <li><span>API INTEGRATION</span><br>Ability to integrate with third-party APIs or Software Development Kits.</li>
+                        </ul> 
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>OVERALL EXPERIENCE REVIEW</span><br>Throughout my journey in web development, I have immersed myself in a diverse array of technologies and frameworks that have shaped my skills and understanding of the digital landscape. Starting with HTML, I grasped the fundamental structure of the web, creating the skeleton upon which everything else would be built. Building upon this foundation, I delved into ReactJS, harnessing its component-based architecture to craft dynamic and interactive user interfaces that seamlessly respond to user actions. My foray into Node.js and Express.js allowed me to explore server-side scripting, enabling me to create robust and efficient backend systems that power my applications. Complementing this functionality, my expertise in CSS has empowered me to meticulously style and design web elements, ensuring both aesthetic appeal and optimal user experience. Leveraging JavaScript, I've infused life into my projects, enabling fluid animations and real-time interactions. Additionally, my proficiency in Bootstrap has expedited my development process, granting me the tools to swiftly create responsive and visually consistent web layouts. Through this comprehensive journey, I've not only gained technical prowess but also cultivated a deep appreciation for the synergy between these technologies, enabling me to craft captivating and seamless web experiences.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>ELEMENTARY</span><br>Bayambang Central School
+                            <br>Rizal Av, Bayambang, Pangasinan 2423</br>
+                            2009 - 2015</li>
+                            <li><span>JUNIOR and SENIOR HIGH SCHOOL</span><br>Pangasinan State University<br>
+                            Quezon Boulevard, Bayambang, Pangasinan </br>
+                            2015 - 2021</li>
+                            <li><span>COLLEGE</span><br>PHINMA University of Pangasinan<br>
+                            Dagupan City, Pangasinan</br>
+                            Bachelor of Science in Information Technology<br>
+                            2021 - Present</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id= "services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list"> 
+            <div> 
+                <i class="fas fa-code"></i>
+                <h2>WEB DEVELOPMENT</h2>
+                <p>Creating websites and web applications that are accessible via the internet. It involves a combination of programming, design, and content creation to build and maintain websites that serve various purposes, from simple static pages to complex interactive platforms.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div> 
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX DESIGNING</h2>
+                <p>Creating intuitive, aesthetically pleasing, and user-friendly digital products, such as websites, mobile apps, and software applications.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div> 
+                <i class=" fab fa-app-store"></i>
+                <h2>APPLICATION DEVELOPMENT</h2>
+                <p>Creating software applications to perform specific tasks or provide particular functionalities. These applications can be designed for various platforms, including desktop computers, mobile devices, web browsers, and other digital environments.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> manueldanaabegail@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 09667204189</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/qnabb.y"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/aabbibiii"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/aabbibiii/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dana-abegail-basilio-manuel-a7547a253/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/MANUEL_RESUME.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ HOLA. made with <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+<script> 
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxnnOVM-SmikbwrMsLqYv9ah3ydJzs8O49vHqt874TARjBCqdVdT1yjr3OYhftNqgm1Qw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
